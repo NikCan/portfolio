@@ -5,10 +5,10 @@ import {NavLink} from "react-router-dom";
 export function Nav() {
     return (
         <div className={s.nav}>
-            <NavLink to="/main" className={({isActive}) => isActive ? s.active : undefined}>Main</NavLink>
-            <NavLink to="/skills" className={({isActive}) => isActive ? s.active : undefined}>Skills</NavLink>
-            <NavLink to="/projects" className={({isActive}) => isActive ? s.active : undefined}>Projects</NavLink>
-            <NavLink to="/contacts" className={({isActive}) => isActive ? s.active : undefined}>Contacts</NavLink>
+            <NavLink to="/main" className={({isActive}) => isActive ? s.active : ""}>Main</NavLink>
+            <NavLink to="/skills" className={({isActive}) => isActive ? s.active : ""}>Skills</NavLink>
+            <NavLink to="/projects" className={({isActive}) => isActive ? s.active : ""}>Projects</NavLink>
+            <NavLink to="/contacts" className={({isActive}) => isActive ? s.active : ""}>Contacts</NavLink>
         </div>
     );
 }

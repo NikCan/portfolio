@@ -1,9 +1,10 @@
 .hireMeBlock {
-    height: 100px;
     background-color: #e3ffba;
 }
 
 .hireMeContainer {
+    height: 100%;
     flex-direction: column;
     justify-content: space-evenly;
+    flex-wrap: nowrap;
 }

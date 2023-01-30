@@ -1,0 +1,35 @@
+@import "../common/styles/sass/variables";
+@import "../common/styles/sass/mixins";
+
+.contactBlock {
+  background-color: $bgColor;
+  height: 80vh;
+
+  .contactContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .title {
+      align-self: flex-start;
+      padding: 25px;
+    }
+
+    .formContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      height: 300px;
+      width: 80%;
+      max-width: 500px;
+      background-color: $bgSecondColor;
+      padding: 30px;
+
+      @media screen and (max-width: 600px) {
+        width: 100%;
+      }
+    }
+  }
+}
+
+

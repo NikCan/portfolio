@@ -1,0 +1,35 @@
+@import "../../styles/sass/variables";
+@import "../../styles/sass/mixins";
+
+.title h2 {
+  @include text(('Rubik', sans-serif), 30px, 300);
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 35px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    width: 60px;
+    background: $primaryColor;
+    height: 1px;
+  }
+
+  &::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -7px;
+    left: 56px;
+    right: 0;
+    z-index: -1;
+    background: $primaryColor;
+  }
+}

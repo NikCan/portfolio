@@ -1,0 +1,17 @@
+@import "../common/styles/sass/variables";
+@import "../common/styles/sass/mixins";
+
+.footer {
+  @include text(('Rubik', monospac), 16px, 400, $textSecondColor);
+  height: 50px;
+  background-color: $bgColor;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+
+  .imageContainer img {
+    width: 20px;
+    margin: 5px;
+  }
+}

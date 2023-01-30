@@ -1,0 +1,16 @@
+@import "../common/styles/sass/variables";
+@import "../common/styles/sass/mixins";
+
+.hireMeBlock {
+  background-color: $bgColor;
+
+  .hireMeContainer {
+    //height: 100%;
+    //flex-direction: column;
+    //justify-content: space-evenly;
+    //flex-wrap: nowrap;
+    padding: 25px;
+  }
+}
+
+

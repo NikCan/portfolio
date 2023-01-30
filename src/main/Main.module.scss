@@ -1,0 +1,52 @@
+@import "../common/styles/sass/mixins";
+
+.mainBlock {
+  height: 100vh;
+  background-color: $bgColor;
+  //position: relative;
+  //z-index: -1;
+
+
+  .introduction {
+    width: 350px;
+
+    & h1 {
+      @include text(('Rubik', sans-serif), 70px, 700);
+      line-height: 1;
+      margin: 0 0 20px;
+    }
+
+    & span {
+      @include text(('Rubik', sans-serif), 25px, 500);
+      margin: 0 0 20px;
+      line-height: 1.2;
+    }
+
+    & p {
+      @include text(('Rubik', sans-serif), 18px, 500);
+      margin-bottom: 25px;
+    }
+  }
+
+  .photo {
+    width: 400px;
+    height: 400px;
+    border-radius: 10%;
+    background-size: cover;
+    background-position: center;
+    margin: 25px;
+
+    //&::after {
+    //  content: "";
+    //  position: absolute;
+    //  right: -20vh;
+    //  top: -20vh;
+    //  width: 100vh;
+    //  height: 100vh;
+    //  border-radius: 50%;
+    //  background: $bgSecondColor;
+    //  z-index: -1;
+    //}
+  }
+}
+

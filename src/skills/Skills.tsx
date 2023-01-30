@@ -22,7 +22,6 @@ export function Skills() {
         <div className={s.skillsBlock} id={"skills"}>
             <div className={classNames(sContainer.container, s.skillsContainer)}>
                 <div className={s.title}><Title text={'My Skills'}/></div>
-
                 <div className={s.skills}>
                     <Skill title={"HTML/CSS"} style={htmlSkill}/>
                     <Skill title={"JS/TS"} style={tsSkill}/>

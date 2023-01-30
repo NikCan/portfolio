@@ -5,11 +5,15 @@
   background-color: $bgColor;
 
   .hireMeContainer {
-    //height: 100%;
-    //flex-direction: column;
-    //justify-content: space-evenly;
-    //flex-wrap: nowrap;
-    padding: 25px;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+
+    .title {
+      align-self: flex-start;
+      padding: 25px;
+    }
   }
 }
 

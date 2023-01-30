@@ -9,7 +9,7 @@ export function HireMe() {
     return (
         <div className={s.hireMeBlock}>
             <div className={classNames(sContainer.container, s.hireMeContainer)}>
-                <Title text={'I Am Available For Freelancer'}/>
+                <div className={s.title}><Title text={'I Am Available For Freelancer'}/></div>
                 <div><a className={b.button} href="#contact">hire me</a></div>
             </div>
         </div>

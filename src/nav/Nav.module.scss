@@ -1,25 +1,27 @@
 @import "../common/styles/sass/variables";
-.nav {
-    width: 400px;
-    height: 40px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: $bgSecondColor;
 
-    & a {
-        text-decoration: none;
-        color: rgba(11, 11, 19, 0.7);
-    }
-    & a:hover {
-       color:$primaryColor
-    }
+.nav {
+  width: 400px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $bgSecondColor;
+
+  & a {
+    text-decoration: none;
+    color: rgba(11, 11, 19, 0.7);
+  }
+
+  & a:hover {
+    color: $primaryColor
+  }
 }
 
 .active {
-    color: red;
+  color: red;
 }
 
 .black {
-    color: black;
+  color: black;
 }

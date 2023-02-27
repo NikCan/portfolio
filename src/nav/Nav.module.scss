@@ -1,11 +1,10 @@
 @import "../common/styles/sass/variables";
+@import "../common/styles/sass/mixins";
 
 .nav {
+  @include flex(row, space-around, nowrap, center);
   width: 400px;
   height: 40px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   background-color: $bgSecondColor;
 
   & a {

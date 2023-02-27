@@ -6,3 +6,20 @@
   font-weight: $fontWeight;
   font-size: $fontSize;
 }
+@mixin container() {
+  @include flex(row, space-around, wrap, center);
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+@mixin flex($flexDirection ,$justifyContent, $flexWrap, $alignItems) {
+  display: flex;
+  flex-direction: $flexDirection;
+  justify-content: $justifyContent;
+  flex-wrap: $flexWrap;
+  align-items: $alignItems;
+}
+@mixin block($backgroundColor) {
+  background-color: $backgroundColor;
+  padding: 100px 0;
+}

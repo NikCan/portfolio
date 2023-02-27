@@ -3,12 +3,9 @@
 
 .footer {
   @include text(('Rubik', monospac), 16px, 400, $textSecondColor);
+  @include flex(column, space-around, nowrap, center);
   padding: 20px 0;
   background-color: $bgSecondColor;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: column;
 
   .imageContainer img {
     width: 20px;

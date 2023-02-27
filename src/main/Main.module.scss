@@ -7,6 +7,9 @@
   //position: relative;
   //z-index: -1;
 
+  .container {
+    @include container();
+  }
 
   .introduction {
     width: 350px;

@@ -2,11 +2,9 @@
 @import "./../../common/styles/sass/mixins";
 
 .project {
+  @include flex(column, space-between, nowrap, center);
   width: 360px;
   background: $bgColor;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
   padding: 25px;
   font-family: 'Rubik', monospace;
@@ -16,11 +14,9 @@
     height: 360px;
 
     .icon {
-      display: flex;
+      @include flex(row, center, nowrap, center);
       height: 100%;
       width: 100%;
-      align-items: center;
-      justify-content: center;
       background-size: cover;
       background-position: center;
       position: relative;

@@ -2,14 +2,12 @@
 @import "../common/styles/sass/mixins";
 
 .hireMeBlock {
-  background-color: $bgSecondColor;
-  padding: 100px 0;
+  @include block($bgSecondColor);
 
   .hireMeContainer {
+    @include container();
+    @include flex(column, space-evenly, nowrap, stretch);
     height: 100%;
-    flex-direction: column;
-    justify-content: space-evenly;
-    flex-wrap: nowrap;
 
     .title {
       align-self: flex-start;

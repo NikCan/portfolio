@@ -2,14 +2,12 @@
 @import "../common/styles/sass/mixins";
 
 .contactBlock {
-  background-color: $bgColor;
-  padding: 100px 0;
+  @include block($bgColor);
   //height: 80vh;
 
   .contactContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    @include container;
+    @include flex(column, center, nowrap, stretch);
 
     .title {
       align-self: flex-start;
@@ -17,17 +15,21 @@
     }
 
     .formContainer {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      height: 300px;
+      @include flex(column, space-evenly, nowrap, stretch);
       width: 80%;
       max-width: 500px;
       background-color: $bgSecondColor;
-      padding: 30px;
+      padding: 30px 30px;
 
       @media screen and (max-width: 600px) {
         width: 100%;
+      }
+      input {
+        height: 42px;
+        margin: 9px 0;
+      }
+      textarea {
+        margin: 9px 0;
       }
     }
   }

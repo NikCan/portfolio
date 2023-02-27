@@ -3,8 +3,8 @@
 
 .footer {
   @include text(('Rubik', monospac), 16px, 400, $textSecondColor);
-  height: 50px;
-  background-color: $bgColor;
+  padding: 20px 0;
+  background-color: $bgSecondColor;
   display: flex;
   align-items: center;
   justify-content: space-around;

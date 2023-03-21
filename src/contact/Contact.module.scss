@@ -7,7 +7,7 @@
 
   .contactContainer {
     @include container;
-    @include flex(column, center, nowrap, stretch);
+    @include flex(column, center, nowrap, center);
 
     .title {
       align-self: flex-start;
@@ -20,6 +20,7 @@
       max-width: 500px;
       background-color: $bgSecondColor;
       padding: 30px 30px;
+      //z-index: 0;
 
       @media screen and (max-width: 600px) {
         width: 100%;
@@ -27,8 +28,10 @@
       input {
         height: 42px;
         margin: 9px 0;
+        font-size: 14px;
       }
       textarea {
+        font-size: 14px;
         margin: 9px 0;
       }
     }

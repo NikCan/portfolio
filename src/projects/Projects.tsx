@@ -16,7 +16,11 @@ export function Projects() {
     <div className={s.projectsBlock} id={"projects"}>
       <div className={s.projectsContainer}>
         <div className={s.title}><Title text={"My Projects"}/></div>
-        <div className={s.projects}>
+        <div data-aos="fade-right"
+             data-aos-duration="1000"
+             data-aos-easing="ease-in-out"
+             className={s.projects}
+        >
           <Project title={"Social Network"} link={"/social_network"} style={social}/>
           <Project title={"ToDo List"} link={"/todo_list"} style={todo}/>
         </div>

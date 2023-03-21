@@ -1,2 +1,17 @@
+@import "./common/styles/sass/mixins";
+
 .App {
+  max-width: 1200px;
 }
+
+//.App {
+//  > div {
+//    &:nth-child(n) {
+//      background-color: $bgSecondColor;
+//    }
+//
+//    &:nth-child(2n) {
+//      background-color: $bgColor;
+//    }
+//  }
+//}

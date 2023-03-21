@@ -3,19 +3,20 @@
 
 .button {
   @include text(('Rubik', monospace), 14px, 400, $bgColor);
+  @include flex(row, center, nowrap, stretch);
   width: 170px;
   height: 44px;
   background: $primaryColor;
-  padding: 0 25px;
   position: relative;
+  z-index: 2;
   cursor: pointer;
   box-shadow: 4px 4px #0b0b13;
   line-height: 42px;
   border: 1px solid transparent;
   letter-spacing: 2px;
-  display: flex;
-  justify-content: center;
   text-decoration: none;
+  padding: 0 25px;
+  margin: 10px 0;
 
   &:hover {
     background: #0b0b13;

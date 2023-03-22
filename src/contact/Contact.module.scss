@@ -25,14 +25,24 @@
       @media screen and (max-width: 600px) {
         width: 100%;
       }
+
       input {
         height: 42px;
         margin: 9px 0;
         font-size: 14px;
+
+        &:focus {
+          outline: none;
+        }
       }
+
       textarea {
         font-size: 14px;
         margin: 9px 0;
+
+        &:focus {
+          outline: none;
+        }
       }
     }
   }

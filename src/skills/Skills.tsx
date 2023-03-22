@@ -23,10 +23,7 @@ export function Skills() {
     <div className={s.skillsBlock} id={"skills"}>
       <div className={s.skillsContainer}>
         <div className={s.title}><Title text={'My Skills'}/></div>
-        <div data-aos="fade-left"
-             data-aos-duration="1000"
-             data-aos-easing="ease-in-out"
-             className={s.skills}
+        <div className={s.skills}
         >
           <Skill title={"HTML/CSS"} style={htmlSkill}/>
           <Skill title={"JS/TS"} style={tsSkill}/>

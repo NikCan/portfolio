@@ -9,6 +9,7 @@ import {Contact} from "./contact/Contact";
 import {Footer} from "./footer/Footer";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import {Toast} from "./common/components/Toast/Toast";
 
 function App() {
   useEffect(() => {
@@ -16,6 +17,7 @@ function App() {
   }, [])
   return (
     <div className="App">
+      <Toast/>
       <Header/>
       <Main/>
       <Skills/>

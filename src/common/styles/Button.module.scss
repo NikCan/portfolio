@@ -22,5 +22,14 @@
     background: #0b0b13;
     box-shadow: 4px 4px $primaryColor;
   }
+
+  &:disabled {
+    opacity: .5;
+  }
+
+  &:disabled:hover {
+    background: $primaryColor;
+    box-shadow: 4px 4px #0b0b13;
+  }
 }
 

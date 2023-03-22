@@ -15,7 +15,7 @@ export function Project(props: SkillPropsType) {
     <div className={s.project}>
       <div className={s.imageContainer}>
         <div className={s.icon} style={props.style}>
-          <NavLink to={`/projects${props.link}`}
+          <NavLink to={props.link} target={"_blank"}
                    className={b.button}>View</NavLink>
         </div>
       </div>

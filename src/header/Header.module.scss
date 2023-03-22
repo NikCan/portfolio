@@ -1,9 +1,6 @@
 @import "../common/styles/sass/variables";
 @import "../common/styles/sass/mixins";
 
-:root {
-    --dark30: red;
-}
 .header {
     @include flex(row, flex-start, nowrap, center);
     height: 80px;
@@ -13,8 +10,7 @@
     opacity: 0.9;
     position: fixed;
     top: 0;
-    z-index: 2;
-    color: var(--dark30);
+    z-index: 3;
 
     .headerContainer {
 

@@ -12,11 +12,11 @@ export function Footer() {
       <div>Nikita Gaponov</div>
       <div>©2023 All Rights Reserved</div>
       <div className={s.imageContainer}>
-        <a target="_blank" href="https://www.linkedin.com/in/nikita-gaponov"><img src={linkedInImg} alt="linkedIn"/></a>
-        <a target="_blank" href="https://www.codewars.com/users/NikCan"><img src={codeImg} alt="codeWars"/></a>
-        <a target="_blank" href="https://github.com/NikCan"><img src={gitImg} alt="git"/></a>
-        <a target="_blank" href="https://t.me/GaponovNikita"><img src={tgImg} alt="telegram"/></a>
-        <a target="_blank" href="https://vk.com/nikitagaponov"><img src={vkImg} alt="vk"/></a>
+        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/nikita-gaponov"><img src={linkedInImg} alt="linkedIn"/></a>
+        <a target="_blank" rel="noreferrer" href="https://www.codewars.com/users/NikCan"><img src={codeImg} alt="codeWars"/></a>
+        <a target="_blank" rel="noreferrer" href="https://github.com/NikCan"><img src={gitImg} alt="git"/></a>
+        <a target="_blank" rel="noreferrer" href="https://t.me/GaponovNikita"><img src={tgImg} alt="telegram"/></a>
+        <a target="_blank" rel="noreferrer" href="https://vk.com/nikitagaponov"><img src={vkImg} alt="vk"/></a>
       </div>
     </div>
   );

@@ -31,8 +31,8 @@ export function Contact() {
         const error = e.response?.data ? e.response?.data : e
         toast.error(error.message)
       }
-      setDisabled(false)
     }
+    setDisabled(false)
   }
 
   return (

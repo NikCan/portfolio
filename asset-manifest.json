@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bdd25192.css",
-    "main.js": "/portfolio/static/js/main.2c3a53ae.js",
+    "main.css": "/portfolio/static/css/main.7f927942.css",
+    "main.js": "/portfolio/static/js/main.4af14f7d.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/me.jpg": "/portfolio/static/media/me.3639be894b3c0b6b5ea2.jpg",
     "static/media/to-do-list.png": "/portfolio/static/media/to-do-list.f48eddcbf2e81ac27fe3.png",
@@ -13,12 +13,12 @@
     "static/media/vk-v2-svgrepo-com.svg": "/portfolio/static/media/vk-v2-svgrepo-com.5ad1aa9499cc682bbb6fe4c3a37a5433.svg",
     "index.html": "/portfolio/index.html",
     "static/media/linkedin-svgrepo-com.svg": "/portfolio/static/media/linkedin-svgrepo-com.54ba776776115670574e24dc4882ee24.svg",
-    "main.bdd25192.css.map": "/portfolio/static/css/main.bdd25192.css.map",
-    "main.2c3a53ae.js.map": "/portfolio/static/js/main.2c3a53ae.js.map",
+    "main.7f927942.css.map": "/portfolio/static/css/main.7f927942.css.map",
+    "main.4af14f7d.js.map": "/portfolio/static/js/main.4af14f7d.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdd25192.css",
-    "static/js/main.2c3a53ae.js"
+    "static/css/main.7f927942.css",
+    "static/js/main.4af14f7d.js"
   ]
 }
